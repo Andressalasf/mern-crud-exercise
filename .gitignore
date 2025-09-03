@@ -1,0 +1,40 @@
+# Dependencias
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno (credenciales, claves secretas)
+.env
+
+# Cache y compilados
+.cache/
+dist/
+build/
+.tmp/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# PM2 / procesos
+pids
+*.pid
+*.seed
+
+# Otros
+*.tgz
